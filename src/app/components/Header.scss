@@ -1,0 +1,13 @@
+.Header {
+  background-color: var(--primary-color);
+  font-size: 1.25rem;
+  font-weight: 100;
+  letter-spacing: -1px;
+
+  .MainNavbar {
+    li:hover a {
+      border-bottom: 1px solid #fff;
+      text-shadow: 0 0 2px #fff;
+    }
+  }
+}

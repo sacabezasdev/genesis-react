@@ -1,0 +1,15 @@
+import Image from "next/image";
+
+import scanFetal from "./assets/scan.png";
+import googlePlayLogo from "./assets/google-play-badge.png";
+import genesisMapa from "./assets/genesis-mapa.png";
+
+import "../Home.scss";
+
+export default function QuienesSomos() {
+  return (
+    <>
+      Quienes somos
+    </>
+  );
+}
