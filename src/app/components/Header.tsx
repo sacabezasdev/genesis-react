@@ -68,10 +68,10 @@ export default function Header() {
         >
           <ul className="space-y-2 border-t border-white/10 py-3">
             <li><Link href="/" className="block px-3 py-2">Inicio</Link></li>
-            <li><Link href="quienes-somos" className="block px-3 py-2">Quiénes Somos</Link></li>
-            <li><Link href="laboratorio" className="block px-3 py-2">Laboratorio</Link></li>
-            <li><Link href="equipo-medico" className="block px-3 py-2">Equipo Médico</Link></li>
-            <li><Link href="contactenos" className="block px-3 py-2">Contáctenos</Link></li>
+            <li><Link href="/quienes-somos" className="block px-3 py-2">Quiénes Somos</Link></li>
+            <li><Link href="/laboratorio" className="block px-3 py-2">Laboratorio</Link></li>
+            <li><Link href="/equipo-medico" className="block px-3 py-2">Equipo Médico</Link></li>
+            <li><Link href="/contactenos" className="block px-3 py-2">Contáctenos</Link></li>
           </ul>
         </div>
       </div>

@@ -6,10 +6,12 @@ import './WhatsAppButton.scss';
 
 type WhatsAppButtonProps = {
   size?: 'sm' | 'lg';
+  phone?: string;
 };
 
 export default function WhatsAppButton({
   size = 'lg',
+  phone = '+549 2996201397',
 }: WhatsAppButtonProps) {
 
   const sizeClasses = {
@@ -25,7 +27,7 @@ export default function WhatsAppButton({
         className={`rounded-md bg-green-500 hover:brightness-110 ${sizeClasses[size]} text-white shadow transition font-light`}
       >
         <FontAwesomeIcon icon={faWhatsapp} />
-        +549 2996201397
+        {phone}
       </a>
     </div>
   );

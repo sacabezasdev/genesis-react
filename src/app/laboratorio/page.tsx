@@ -1,5 +1,4 @@
 import ImageFrame from "../components/ImageFrame";
-import SideBar from "../components/SideBar";
 import Descargable from "../components/Descargable";
 import WhatsAppButton from "../components/WhatsAppButton";
 
