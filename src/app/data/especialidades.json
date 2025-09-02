@@ -1,0 +1,22 @@
+[
+  {"id": "cardiologia-pediatrica", "nombre": "Cardiología pediátrica"},
+  {"id": "clinica-medica", "nombre": "Clínica Médica"},
+  {"id": "diabetes-obesidad", "nombre": "Diabetes y Obesidad"},
+  {"id": "diabetologia-prenatal", "nombre": "Diabetología Prenatal"},
+  {"id": "diagnostico-pre-natal", "nombre": "Diagnóstico Pre-Natal"},
+  {"id": "ecocardio-fetal", "nombre": "Ecocardio Fetal"},
+  {"id": "ecografia-medica", "nombre": "Especialista Ecografía Médica"},
+  {"id": "ecografias", "nombre": "Ecografías"},
+  {"id": "especialista-en-genetica-medica", "nombre": "Especialista en Genética Médica"},
+  {"id": "especialista-en-imagenes", "nombre": "Especialista en Imágenes"},
+  {"id": "fertilidad", "nombre": "Fertilidad"},
+  {"id": "ginecología-regenerativa", "nombre": "Ginecología Regenerativa"},
+  {"id": "ginecologia", "nombre": "Ginecología"},
+  {"id": "kinesiologia-piso-pelvico", "nombre": "Kinesiología Piso Pélvico"},
+  {"id": "mastologia", "nombre": "Mastología"},
+  {"id": "nutricion-embarazo-maternidad", "nombre": "Nutrición Embarazo y Maternidad"},
+  {"id": "obstetricia-de-alto-riesgo", "nombre": "Especialista en Obstetricia de Alto Riesgo"},
+  {"id": "obstetricia", "nombre": "Obstetricia"},
+  {"id": "tocoginecologia", "nombre": "Tocoginecología"},
+  {"id": "uroginecologia", "nombre": "Uroginecología"}
+]

@@ -1,0 +1,240 @@
+[
+  {
+    "id": "flores-peyric-daniel-o",
+    "nombre": "Dr. Flores Peyric Daniel O.",
+    "imagen": "flores-peyric-daniel-o.jpg",
+    "especialidades": ["Especialista en Imágenes"],
+    "orden": 1
+  },
+  {
+    "id": "esteves-alvarez-m-eugenia",
+    "nombre": "Dra. Esteves Alvarez M. Eugenia",
+    "imagen": "esteves-alvarez-m-eugenia.jpg",
+    "especialidades": ["Ginecología", "Ecografías"],
+    "orden": 2
+  },
+  {
+    "id": "alvarez-gabriel",
+    "nombre": "Dr. Alvarez Gabriel",
+    "imagen": "alvarez-gabriel.jpg",
+    "especialidades": ["Ecografías", "Diagnóstico Pre-Natal"],
+    "orden": 3
+  },
+  {
+    "id": "ahmad-gisela",
+    "nombre": "Dra. Ahmad Gisela",
+    "imagen": "ahmad-gisela.jpg",
+    "especialidades": ["Especialista en Imágenes"],
+    "orden": 4
+  },
+  {
+    "id": "prieto-cesar",
+    "nombre": "Dr. Prieto César",
+    "imagen": "prieto-cesar.jpg",
+    "especialidades": ["Tocoginecología", "Ecografías"],
+    "orden": 5
+  },
+  {
+    "id": "abeledo-manuel",
+    "nombre": "Dr. Abeledo Manuel",
+    "imagen": "abeledo-manuel.jpg",
+    "especialidades": ["Ginecología", "Obstetricia"],
+    "orden": 6
+  },
+  {
+    "id": "avalos-alejandra",
+    "nombre": "Dra. Avalos Alejandra",
+    "imagen": "avalos-alejandra.jpg",
+    "especialidades": ["Ginecología", "Obstetricia"],
+    "orden": 7
+  },
+  {
+    "id": "contreras-osvaldo",
+    "nombre": "Dr. Contreras Osvaldo",
+    "imagen": "contreras-osvaldo.jpg",
+    "especialidades": ["Tocoginecología", "Uroginecología"],
+    "orden": 8
+  },
+  {
+    "id": "fragueiro-ignacio",
+    "nombre": "Dr. Fragueiro Ignacio",
+    "imagen": "fragueiro-ignacio.jpg",
+    "especialidades": ["Ginecología", "Uroginecología"],
+    "orden": 9
+  },
+  {
+    "id": "riesco-rodriguez-gisela",
+    "nombre": "Dra. Riesco Rodriguez Gisela",
+    "imagen": "riesco-rodriguez-gisela.jpg",
+    "especialidades": ["Especialista en Obstetricia de Alto Riesgo"],
+    "orden": 10
+  },
+  {
+    "id": "maruri-maria-m",
+    "nombre": "Dra. Maruri María M.",
+    "imagen": "maruri-maria-m.jpg",
+    "especialidades": ["Ginecología", "Obstetricia"],
+    "orden": 11
+  },
+  {
+    "id": "miguel-mariana",
+    "nombre": "Dra. Miguel Mariana",
+    "imagen": "miguel-mariana.jpg",
+    "especialidades": ["Tocoginecología"],
+    "orden": 12
+  },
+  {
+    "id": "sanchez-jesus",
+    "nombre": "Dr. Sanchez Jesús",
+    "imagen": "sanchez-jesus.jpg",
+    "especialidades": ["Tocoginecología", "Diagnóstico Prenatal"],
+    "orden": 13
+  },
+  {
+    "id": "di-blasi-sad",
+    "nombre": "Dra. Di Blasi Sad Romina",
+    "imagen": "di-blasi-sad.jpg",
+    "especialidades": ["Ginecología Regenerativa", "Obstetricia"],
+    "orden": 14
+  },
+  {
+    "id": "demartin-paula",
+    "nombre": "Lic. Demartín Paula",
+    "imagen": "demartin-paula.jpg",
+    "especialidades": ["Nutrición Embarazo y Maternidad"],
+    "orden": 15
+  },
+  {
+    "id": "maciel-jorge",
+    "nombre": "Dr. Maciel Jorge",
+    "imagen": "maciel-jorge.jpg",
+    "especialidades": ["Ginecología", "Obstetricia"],
+    "orden": 16
+  },
+  {
+    "id": "garay-pedro",
+    "nombre": "Dr. Garay Pedro",
+    "imagen": "garay-pedro.jpg",
+    "especialidades": ["Ginecología", "Uroginecología"],
+    "orden": 17
+  },
+  {
+    "id": "nunez-marcela",
+    "nombre": "Dra. Nuñez Marcela",
+    "imagen": "nunez-marcela.jpg",
+    "especialidades": ["Ginecología", "Obstetricia"],
+    "orden": 18
+  },
+  {
+    "id": "rosas-tania",
+    "nombre": "Dra. Rosas Tania",
+    "imagen": "rosas-tania.jpg",
+    "especialidades": ["Ginecología", "Obstetricia"],
+    "orden": 19
+  },
+  {
+    "id": "ximena-donzelli",
+    "nombre": "Dra. Donzelli Ximena",
+    "imagen": "ximena-donzelli.jpg",
+    "especialidades": ["Ginecología"],
+    "orden": 20
+  },
+  {
+    "id": "perez-elsa",
+    "nombre": "Dra. Perez Elsa",
+    "imagen": "perez-elsa.jpg",
+    "especialidades": ["Clínica Médica"],
+    "orden": 21
+  },
+  {
+    "id": "rach-luciana",
+    "nombre": "Dra. Rach Luciana",
+    "imagen": "rach-luciana.jpeg",
+    "especialidades": ["Mastología"],
+    "orden": 22
+  },
+  {
+    "id": "juan-cruz-varvasini",
+    "nombre": "Dr. Juan Cruz Varvasini",
+    "imagen": "juan-cruz-varvasini.jpg",
+    "especialidades": ["Cardiología pedíatrica", "Ecocardio fetal"],
+    "orden": 23
+  },
+  {
+    "id": "kugler-mariela",
+    "nombre": "Dra. Kugler Mariela",
+    "imagen": "kugler-mariela.jpg",
+    "especialidades": ["Mastología"],
+    "orden": 24
+  },
+  {
+    "id": "guzman-carola",
+    "nombre": "Dra. Guzman Carola",
+    "imagen": "guzman-carola.jpg",
+    "especialidades": ["Diabetología Prenatal"],
+    "orden": 25
+  },
+  {
+    "id": "barbaro-evangelina",
+    "nombre": "Dra. Bárbaro Evangelina",
+    "imagen": "barbaro-evangelina.jpg",
+    "especialidades": ["Especialista en Genética Médica"],
+    "orden": 26
+  },
+  {
+    "id": "camacho-mariela",
+    "nombre": "Dra. Camacho Mariela",
+    "imagen": "camacho-mariela.jpg",
+    "especialidades": ["Ginecología y Fertilidad"],
+    "orden": 27
+  },
+  {
+    "id": "manueco-mercedes",
+    "nombre": "Dra. Mañueco Mercedes",
+    "imagen": "manueco-mercedes.jpg",
+    "especialidades": ["Ginecología"],
+    "orden": 28
+  },
+  {
+    "id": "duarte-leonela",
+    "nombre": "Dra. Duarte Leonela",
+    "imagen": "duarte-leonela.jpg",
+    "especialidades": ["Ginecología"],
+    "orden": 29
+  },
+  {
+    "id": "ducros-valeria",
+    "nombre": "Dra. Ducros Valeria",
+    "imagen": "ducros-valeria.jpg",
+    "especialidades": ["Ginecología y Obstetricia"],
+    "orden": 30
+  },
+  {
+    "id": "wienhausen-maximiliano",
+    "nombre": "Dr. Wienhausen Maximiliano",
+    "imagen": "wienhausen-maximiliano.jpg",
+    "especialidades": ["Ecografías"],
+    "orden": 31
+  },
+  {
+    "id": "melisa-despres",
+    "nombre": "Lic. Melisa Despres",
+    "imagen": "melisa-despres.jpg",
+    "especialidades": ["Kinesiología Piso Pélvico"],
+    "orden": 32
+  },
+  {
+    "id": "rocio-gonzalez",
+    "nombre": "Dra. Rocío Gonzalez",
+    "imagen": "rocio-gonzalez.jpg",
+    "especialidades": ["Clínica Médica", "Diabetes y Obesidad"],
+    "orden": 33
+  },
+  {
+    "id": "mariana-erro",
+    "nombre": "Dra. Mariana Erro",
+    "imagen": "mariana-erro.jpg",
+    "especialidades": ["Especialista Ecografía Médica"],
+    "orden": 34
+  }
+]

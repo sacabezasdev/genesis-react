@@ -1,8 +1,9 @@
 @import "tailwindcss";
+@import "breakpoints";
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #5a5a5a;
   --primary-color: #c73b24;
   --font-roboto: "Roboto", sans-serif;
 }
@@ -14,18 +15,30 @@
   --font-mono: var(--font-geist-mono);
 }*/
 
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
   :root {
     --background: #fff;
     --foreground: #ededed;
   }
-}
+}*/
 
 .primaryColor {
   background-color: var(--primary-color);
 }
 .textPrimaryColor {
   color: var(--primary-color);
+}
+.lead {
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.25;
+
+  &.bigger {
+    font-size: 1.65em;
+  }
+  &.smaller {
+    font-size: 1.3em;
+  }
 }
 
 body {
@@ -35,9 +48,27 @@ body {
   font-size: 16px;
 }
 
-h2 {
+h1, h2, h3, h4, h5, h6 {
   color: var(--primary-color);
-  font-size: 2em;
+  line-height: 1;
+  margin-bottom: 0.25em;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 300;
+  letter-spacing: -2px;
+
+  @include respond-to(desktop) {
+    font-size: 4em;
+  }
+}
+
+h2 {
+  font-size: 1.75em;
   font-weight: 500;
   letter-spacing: -1px;
+  @include respond-to(desktop) {
+    font-size: 2em;
+  }
 }

@@ -1,15 +1,34 @@
-import Image from "next/image";
+import ImageFrame from "../components/ImageFrame";
+import SideBar from "../components/SideBar";
+import Profesional from "../components/Profesional";
 
-import scanFetal from "./assets/scan.png";
-import googlePlayLogo from "./assets/google-play-badge.png";
-import genesisMapa from "./assets/genesis-mapa.png";
+import profesionales from "../data/profesionales.json";
 
-import "../Home.scss";
+import equipoMedico from "../assets/equipo-medico-carousel.jpg";
 
-export default function QuienesSomos() {
+export default function EquipoMedico() {
   return (
-    <>
-      Quienes somos
-    </>
+    <div className="QuienesSomos Home mx-auto max-w-7xl px-4 py-10">
+      <div className="grid grid-cols-1 gap-8 md:grid-cols-6">
+        <div className="md:col-span-2 flex flex-col gap-10 hidden md:block">
+          <ImageFrame image={equipoMedico} imageAlt="Equipo Médico" />
+          <div className="mt-6">
+            <SideBar />
+          </div>
+        </div>
+        <div className="md:col-span-4">
+          <h1 className="text-2xl font-semibold mb-6">Equipo Médico</h1>
+          {profesionales.map((profesional, index) => (
+            <Profesional key={index} profesional={profesional} />
+          ))}
+        </div>
+        <div className="md:col-span-2 flex flex-col gap-10 md:hidden">
+          <ImageFrame image={equipoMedico} imageAlt="Equipo Médico" />
+          <div className="mt-6">
+            <SideBar />
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }

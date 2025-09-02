@@ -2,7 +2,6 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 import WhatsAppButton from './WhatsAppButton';
 
@@ -13,7 +12,7 @@ export default function Footer() {
   return (
     <div id="foot-content" className="Footer bg-neutral-800 text-white py-6">
       <div className="mx-auto max-w-7xl px-4 text-center">
-        <p className="space-x-2">
+        <div className="space-x-2">
           <a
             href="/inicio"
             className="text-gray-300 hover:text-white transition underline-offset-2 hover:underline {% if page=='inicio' %}font-semibold text-teal-400{% endif %}"
@@ -41,9 +40,9 @@ export default function Footer() {
           >
             Contáctenos
           </a>
-        </p>
+        </div>
 
-        <p className="flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
+        <div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
           <a
             href="mailto:info@genesisvita.com.ar"
             className="flex items-center gap-2 text-gray-300 hover:text-white transition"
@@ -54,7 +53,7 @@ export default function Footer() {
           </a>
 
           <WhatsAppButton size="sm" />
-        </p>
+        </div>
       </div>
     </div>
   );

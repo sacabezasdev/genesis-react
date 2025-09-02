@@ -7,23 +7,24 @@ import './Header.scss';
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+  const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
   return (
-    <header className={"Header w-full text-white shadow-2xl"}>
+    <header className={"Header w-full text-white shadow-xl/20"}>
       <div className="mx-auto max-w-7xl px-4">
-        <nav className="flex items-end justify-between py-1">
+        <nav className="flex items-center md:items-end justify-between py-1">
           {/* Left: logo */}
-          <a href="/" className="inline-flex items-center">
+          <Link href="/" className="inline-flex items-center">
             <span className="inline-block p-4">
               <Image
-                src="genesis-logo.png"
+                src={`${BASE_PATH}/genesis-logo.png`}
                 alt="Genesis Vita Logo"
                 width={176}
                 height={96}
                 priority
               />
             </span>
-          </a>
+          </Link>
 
           {/* Mobile toggle */}
           <button
@@ -32,12 +33,22 @@ export default function Header() {
             aria-controls="navbar"
             aria-expanded={open}
             onClick={() => setOpen((v) => !v)}
-            className="inline-flex items-center justify-center rounded-md p-2 ring-1 ring-white/20 hover:bg-white/10 focus:outline-none focus-visible:ring-2 focus-visible:ring-white md:hidden"
+            className="inline-flex flex-col items-center justify-center rounded-md p-2 ring-1 ring-white/20 hover:bg-white/10 focus:outline-none focus-visible:ring-2 focus-visible:ring-white md:hidden"
           >
             <span className="sr-only">Toggle navigation</span>
-            <span className={`block h-0.5 w-5 transition ${open ? "translate-y-1.5 rotate-45 bg-white" : "bg-white"}`} />
-            <span className={`block h-0.5 w-5 my-1 transition ${open ? "opacity-0" : "bg-white"}`} />
-            <span className={`block h-0.5 w-5 transition ${open ? "-translate-y-1.5 -rotate-45 bg-white" : "bg-white"}`} />
+
+            <span
+              className={`block h-0.5 w-6 rounded-sm bg-white transition-transform duration-300 ${open ? "translate-y-1.5 rotate-45" : ""
+                }`}
+            />
+            <span
+              className={`block h-0.5 w-6 rounded-sm bg-white transition-opacity duration-300 my-1 ${open ? "opacity-0" : ""
+                }`}
+            />
+            <span
+              className={`block h-0.5 w-6 rounded-sm bg-white transition-transform duration-300 ${open ? "-translate-y-1.5 -rotate-45" : ""
+                }`}
+            />
           </button>
 
           {/* Desktop nav */}
@@ -53,14 +64,14 @@ export default function Header() {
         {/* Mobile menu */}
         <div
           id="navbar"
-          className={`md:hidden ${open ? "block" : "hidden"}`}
+          className={`MobileMenu md:hidden ${open ? "block" : "hidden"}`}
         >
           <ul className="space-y-2 border-t border-white/10 py-3">
-            <li><a href="/" className="block rounded-md px-3 py-2 hover:bg-white/10">Inicio</a></li>
-            <li><a href="quienes-somos" className="block rounded-md px-3 py-2 hover:bg-white/10">Quiénes Somos</a></li>
-            <li><a href="laboratorio" className="block rounded-md px-3 py-2 hover:bg-white/10">Laboratorio</a></li>
-            <li><a href="equipo-medico" className="block rounded-md px-3 py-2 hover:bg-white/10">Equipo Médico</a></li>
-            <li><a href="contactenos" className="block rounded-md px-3 py-2 hover:bg-white/10">Contáctenos</a></li>
+            <li><Link href="/" className="block px-3 py-2">Inicio</Link></li>
+            <li><Link href="quienes-somos" className="block px-3 py-2">Quiénes Somos</Link></li>
+            <li><Link href="laboratorio" className="block px-3 py-2">Laboratorio</Link></li>
+            <li><Link href="equipo-medico" className="block px-3 py-2">Equipo Médico</Link></li>
+            <li><Link href="contactenos" className="block px-3 py-2">Contáctenos</Link></li>
           </ul>
         </div>
       </div>
