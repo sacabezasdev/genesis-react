@@ -1,10 +1,13 @@
 @import "tailwindcss";
 @import "breakpoints";
+@import "tailwindcss";
+@import "flyonui/variants.css";
 
 :root {
   --background: #ffffff;
   --foreground: #5a5a5a;
   --primary-color: #c73b24;
+  --secondary-color: #ff9800;
   --font-roboto: "Roboto", sans-serif;
 }
 
@@ -22,11 +25,58 @@
   }
 }*/
 
+/* embla base */
+.embla {
+  position: relative;
+}
+
+.embla__viewport {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+}
+
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+/* dots */
+.embla__controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.75rem;
+}
+
+.embla__dots {
+  display: inline-flex;
+  gap: 0.5rem;
+}
+
+.embla__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 9999px;
+  background: #cbd5e1;
+}
+
+.embla__dot--selected {
+  background: #fff;
+}
+
 .primaryColor {
   background-color: var(--primary-color);
 }
 .textPrimaryColor {
   color: var(--primary-color);
+}
+.secondaryColor {
+  background-color: var(--secondary-color);
+}
+.textSecondaryColor {
+  color: var(--secondary-color);
 }
 .lead {
   font-size: 1.5em;

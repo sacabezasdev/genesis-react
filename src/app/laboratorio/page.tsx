@@ -5,7 +5,8 @@ import WhatsAppButton from "../components/WhatsAppButton";
 import laboratorio1 from "../assets/DSC_9017.jpg";
 import laboratorio2 from "../assets/DSC_9070.jpg";
 
-const UROCULTIVO = 'http://www.genesisvita.com.ar/static/pdf-indicaciones-largo.pdf';
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+const uroCultivo = `${BASE_PATH}/docs/pdf-indicaciones-largo.pdf`;
 
 export default function Laboratorio() {
   return (
@@ -30,7 +31,7 @@ export default function Laboratorio() {
             Lunes a Viernes de 8:00 a 16:00
           </div>
           <h2 className="text-2xl font-semibold mb-6 mt-8">Indicaciones Descargables</h2>
-          <Descargable link={UROCULTIVO} size="sm">
+          <Descargable link={uroCultivo} size="sm">
             Urocultivo
           </Descargable>
           <ImageFrame image={laboratorio2} imageAlt="Equipo Médico" />
